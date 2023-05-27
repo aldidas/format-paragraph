@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+}
+#app {
+  display: block;
+  max-width: 720px;
+  margin: 25px auto;
+  overflow: auto;
+}
+pre {
+  background: #f4f4f4;
+}

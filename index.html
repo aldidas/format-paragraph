@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html data-theme="light">
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      .wrap {
+        display: block;
+        max-width: 720px;
+        margin: 25px auto;
+        overflow: auto;
+      }
+      pre {
+        background: #f4f4f4;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <form>
+        <div>
+          <input type="text" id="title-field" />
+        </div>
+        <textarea id="html-field"></textarea>
+      </form>
+      <div id="title"></div>
+      <div id="app"></div>
+      <div class="grid">
+        <div><button id="copy-title" class="copy-btn">Copy Title</button></div>
+        <div><button id="copy-pre" class="copy-btn">Copy HTML</button></div>
+        <div><button id="clear">Clear Data</button></div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
